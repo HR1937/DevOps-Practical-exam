@@ -1,6 +1,6 @@
-const area = document.querySelector("#features");
+const calculatorArea = document.querySelector("#features");
 
-area.insertAdjacentHTML(
+calculatorArea.insertAdjacentHTML(
   "beforeend",
   `
   <section>

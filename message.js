@@ -1,6 +1,6 @@
-const area = document.querySelector("#features");
+const messageArea = document.querySelector("#features");
 
-area.insertAdjacentHTML(
+messageArea.insertAdjacentHTML(
   "beforeend",
   `
   <section>

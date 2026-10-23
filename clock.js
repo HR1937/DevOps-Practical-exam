@@ -1,6 +1,6 @@
-const area = document.querySelector("#features");
+const clockArea = document.querySelector("#features");
 
-area.insertAdjacentHTML(
+clockArea.insertAdjacentHTML(
   "beforeend",
   `
   <section>

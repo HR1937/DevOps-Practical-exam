@@ -1,6 +1,6 @@
-const area = document.querySelector("#features");
+const backgroundArea = document.querySelector("#features");
 
-area.insertAdjacentHTML(
+backgroundArea.insertAdjacentHTML(
   "beforeend",
   `
   <section>
@@ -12,7 +12,7 @@ area.insertAdjacentHTML(
 `,
 );
 
-area.querySelectorAll("[data-color]").forEach((button) => {
+backgroundArea.querySelectorAll("[data-color]").forEach((button) => {
   button.onclick = () => {
     document.body.style.background = button.dataset.color;
   };
